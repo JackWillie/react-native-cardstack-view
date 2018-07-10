@@ -49,7 +49,11 @@ const styles = StyleSheet.create({
 		zIndex: 3,
 		top: 0,
 		opacity: 1,
-		transform: [{ scale: 1.0 }]
+		transform: [{ scale: 1.0 }],
+		borderBottomLeftRadius: 10,
+		borderBottomRightRadius: 10,
+		borderTopLeftRadius: 10,
+		borderTopRightRadius: 10
 	},
 	middleCardView: {
 		width: 350,
@@ -58,7 +62,11 @@ const styles = StyleSheet.create({
 		zIndex: 2,
 		top: 25,
 		opacity: 0.7,
-		transform: [{ scale: 0.9 }]
+		transform: [{ scale: 0.9 }],
+		borderBottomLeftRadius: 10,
+		borderBottomRightRadius: 10,
+		borderTopLeftRadius: 10,
+		borderTopRightRadius: 10
 	},
 	backCardView: {
 		width: 350,
@@ -67,7 +75,11 @@ const styles = StyleSheet.create({
 		zIndex: 1,
 		top: 50,
 		opacity: 0.9,
-		transform: [{ scale: 0.8 }]
+		transform: [{ scale: 0.8 }],
+		borderBottomLeftRadius: 10,
+		borderBottomRightRadius: 10,
+		borderTopLeftRadius: 10,
+		borderTopRightRadius: 10
 	}
 });
 
