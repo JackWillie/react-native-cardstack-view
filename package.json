@@ -1,0 +1,36 @@
+{
+	"name": "react-native-cardstack-view",
+	"version": "0.0.1",
+	"description": "A Card Stack View for React Native and Expo apps.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"lint": "eslint . --ignore-path .gitignore --ext .js --ext .jsx --quiet"
+	},
+	"keywords": [
+		"react native",
+		"react-native",
+		"card",
+		"expo",
+		"react",
+		"view"
+	],
+	"engines": {
+		"node": ">=4.0.0"
+	},
+	"peerDependencies": {
+		"expo": ">=27.0.1",
+		"react": ">=16.3.1",
+		"react-native": ">=0.55.2"
+	},
+	"author": "Aman Mittal <amandeepmittal@live.com> (www.amanhimself.me)",
+	"license": "MIT",
+	"devDependencies": {
+		"babel-preset-react-native": "^4.0.0",
+		"eslint": "^5.0.1",
+		"eslint-config-amanhimself": "^1.1.2",
+		"react": "^16.4.1",
+		"react-native": "^0.56.0"
+	},
+	"dependencies": {}
+}
