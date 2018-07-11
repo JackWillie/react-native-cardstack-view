@@ -31,14 +31,14 @@ react-native link
 
 Example:
 
-```js
+```javascript
 import CardStackView from 'react-native-cardstack-view';
 
 	<View style={styles.container}>
           <CardsView backgroundColor="#4545aa">
             <Text>Hola!</Text>
           </CardStackView>
-			</View>
+	</View>
 ```
 
 Note: it will not render correctly until you provide a `backgroundColor` prop. It accepts children props so you can manipulate and style the text inside accordingly.
