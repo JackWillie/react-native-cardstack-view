@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+import PropTypes from 'prop-types';
 
 class CardStackView extends Component {
 	static defaultProps = {
@@ -82,5 +83,10 @@ const styles = StyleSheet.create({
 		borderTopRightRadius: 10
 	}
 });
+
+CardStackView.propTypes = {
+	style: PropTypes.object,
+	backgroundColor: PropTypes.string
+};
 
 export default CardStackView;
